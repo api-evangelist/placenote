@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: derived
+source: https://github.com/Placenote
+note: >-
+  First-party mobile SDKs for the Placenote persistent-AR toolkit, derived from the
+  Placenote GitHub organization and the published PlacenoteSDK CocoaPods podspec.
+  Placenote was a cloud-hosted persistent augmented-reality mapping SDK (iOS + Unity);
+  the company is defunct and placenote.com no longer resolves to a live product, but
+  these client libraries remain published on GitHub / CocoaPods.
+packages:
+  - language: swift
+    registry: cocoapods
+    name: PlacenoteSDK
+    url: https://github.com/Placenote/PlacenoteSDK-CocoaPod
+    install: pod 'PlacenoteSDK'
+    official: true
+    version: 1.2.0
+    platform: ios
+    note: Native iOS ARKit SDK (Swift). CocoaPods homepage points to the now-parked placenote.com.
+  - language: csharp
+    registry: github
+    name: PlacenoteSDK-Unity
+    url: https://github.com/Placenote/PlacenoteSDK-Unity
+    install: Import the Unity package / clone from GitHub
+    official: true
+    platform: unity
+    note: Unity SDK and sample app for persistent AR.

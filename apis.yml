@@ -1,8 +1,29 @@
 aid: placenote
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/placenote.png
 name: Placenote
-description: Placenote is a company surfaced as a portfolio company of version-one-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Placenote (Vertical AI Inc.) was a San Francisco company that built a cloud-hosted
+  persistent augmented-reality toolkit — a "Persistent AR" SDK that let developers save,
+  reload, and share ARKit/Unity spatial maps so digital content stays anchored to a
+  physical location across sessions and devices. It shipped native client SDKs for iOS
+  (Swift, via the PlacenoteSDK CocoaPod) and Unity, plus multiplayer AR samples such as
+  PlaceInvaders and web mesh-viewing examples. The product was consumed as mobile SDKs
+  backed by a cloud mapping/localization service rather than a public REST API, so no
+  OpenAPI or web API surface was published. The company is now defunct: placenote.com no
+  longer resolves to a live product (the domain is parked) and the docs/cloud service are
+  offline. The Placenote GitHub organization and the published SDKs remain the only live,
+  first-party developer surface, which is what this profile captures.
 url: https://raw.githubusercontent.com/api-evangelist/placenote/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,38 @@ x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: placenote.com parked (Bluehost); cloud service offline; SDKs remain on GitHub/CocoaPods.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Augmented Reality
+- Spatial Computing
+- SDK
+- Mobile
+- Computer Vision
+- ARKit
+- Unity
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/Placenote
+  name: Placenote GitHub Organization
+- type: Packages
+  url: packages/placenote-packages.yml
+  name: Placenote Client SDKs (packages)
+- type: SDKs
+  url: packages/placenote-packages.yml
+  name: Placenote iOS + Unity SDKs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
