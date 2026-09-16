@@ -43,7 +43,7 @@ x-status: defunct
 x-status-note: placenote.com parked (Bluehost); cloud service offline; SDKs remain on GitHub/CocoaPods.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Augmented Reality
@@ -53,6 +53,7 @@ tags:
 - Computer-Vision
 - ARKit
 - Unity
+- Defunct
 tags_raw:
 - Company
 - Augmented Reality
@@ -62,6 +63,7 @@ tags_raw:
 - Computer Vision
 - ARKit
 - Unity
+- Defunct
 apis: []
 common:
 - type: GitHubOrganization
