@@ -50,7 +50,7 @@ tags:
 - Spatial Computing
 - SDK
 - Mobile
-- Computer-Vision
+- Computer Vision
 - ARKit
 - Unity
 - Defunct
@@ -64,6 +64,7 @@ tags_raw:
 - ARKit
 - Unity
 - Defunct
+- Computer-Vision
 apis: []
 common:
 - type: GitHubOrganization
